@@ -311,7 +311,7 @@ border-color: red;
 }
 
 #event-name-container span, #event-name-container div , #event-name-container label {
-  font-size: 10px;
+  /*font-size: 10px;*/
 }
 
 #event-name-container #senseus-header span{
@@ -324,6 +324,7 @@ border-color: red;
 
 .pl1, #event-type-container .item-content {
   padding-left: 1%;
+  padding: 10px;
 }
 
 .pr1 {
@@ -338,3 +339,5 @@ border-color: red;
 .bar-footer .column .row {
   height: 50%;
   width: 100%; }
+
+.ion-1x { font-size: 24px !important;}
