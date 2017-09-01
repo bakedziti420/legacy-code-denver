@@ -321,7 +321,7 @@ border-color: red;
 }
 
 .flex-row, .p0 {
-  padding:0;
+  padding:10px;
 }
 
 .pl1, #event-type-container .item-content {
@@ -355,4 +355,3 @@ input{
 .pl1{
  line-height: 59px;
 }
-
