@@ -355,3 +355,7 @@ input{
 .pl1{
  line-height: 59px;
 }
+
+.inputFields{
+  font-size: 5em;
+}
