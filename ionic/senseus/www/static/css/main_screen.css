@@ -360,3 +360,9 @@ width: 100%; }
     text-align: center;
     vertical-align: middle;
 }
+
+@media (max-width: 671px) {
+  #week-calendar {
+    margin-top: 12%;
+  }
+}
