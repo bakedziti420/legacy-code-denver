@@ -130,7 +130,7 @@ border-color: red;
 
 .outer-create-event {
     width: 38%;
-    height: 20%;
+    height: 10%;
     border: 1px solid yellow;
     float:left;
     margin-left: 8%;
@@ -319,7 +319,7 @@ border-color: red;
 }
 
 .flex-row, .p0 {
-  padding:0;
+  padding:10px;
 }
 
 .pl1, #event-type-container .item-content {
