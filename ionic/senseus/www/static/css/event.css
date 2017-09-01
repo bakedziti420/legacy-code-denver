@@ -52,6 +52,10 @@
         padding-left: 15%;
 }
 
+.dayHeader {
+  margin-top: 5px;
+}
+
 #next-button-div {
     display:flex;
     width: 100%;

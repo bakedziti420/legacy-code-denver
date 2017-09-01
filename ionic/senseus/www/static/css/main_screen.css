@@ -303,6 +303,7 @@ width: 100%; }
 
 .w100 {
     width: 100%;
+    margin-top: 50px;
 }
 
 .h100 {
@@ -332,7 +333,7 @@ width: 100%; }
   flex-direction:column;
   padding: 0;
   border:0;
-  margin-top:8%;
+  margin-top: 3%;
 }
 
 #senseus-calendar-header .inner-senseus-header {
@@ -355,4 +356,5 @@ width: 100%; }
     border-left: 1px solid #ddd;
     text-align: center;
     vertical-align: middle;
+
 }
