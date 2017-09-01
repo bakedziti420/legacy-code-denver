@@ -10,7 +10,7 @@ var app = angular.module('senseus', ['ionic', 'ngCordova', 'senseus.controllers'
 
   .state('firstTime', {
     url: '/firstTime',
-    templateUrl: 'templates/landing-page.html'
+    templateUrl: 'templates/main-screen.html'
   })
   .state('eventName', {
     url: '/eventName',
