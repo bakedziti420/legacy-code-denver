@@ -4,14 +4,23 @@
 	<table id='day-header-table' class="table w100 h100" style='table-layout:fixed;'>
 	<thead>
 	<tr>
-	<th id='header-time-column'>
-		<div class='button' ng-click='changeTimeView(-1)'><i class='icon ion-arrow-left-c'></i></div>
-        <div class='button' ng-click='changeTimeView(1)'><i class='icon ion-arrow-right-c'></i></div>
-	</th>
-	<th>{{Sunday}}</th><th>{{Monday}}</th><th>{{Tuesday}}</th><th>{{Wednesday}}</th><th>{{Thursday}}</th><th>{{Friday}}</th><th>{{Saturday}}</th>
+		<th>{{Sunday}}</th>
+		<th>{{Monday}}</th>
+		<th>{{Tuesday}}</th>
+		<th>{{Wednesday}}</th>
+		<th>{{Thursday}}</th>
+		<th>{{Friday}}</th>
+		<th>{{Saturday}}</th>
 	</tr>
 	</thead>
-	</tbody>
+	<tfoot>
+	<tr>
+		<td id='header-time-column'>
+			<div class='button' ng-click='changeTimeView(-1)'><i class='icon ion-arrow-left-c'></i></div>
+	        <div class='button' ng-click='changeTimeView(1)'><i class='icon ion-arrow-right-c'></i></div>
+		</td>
+	</tr>
+	</tfoot>
 	</table>
 </div>
 </ion-header-bar>
