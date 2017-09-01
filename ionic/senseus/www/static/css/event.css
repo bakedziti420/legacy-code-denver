@@ -156,9 +156,20 @@ border-color: red;
 #event-area {
     display: flex;
     flex-direction: column;
-    width: 99%;
-    height: 96%;
-    padding-left: 1%;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.eventReviewInput {
+  margin: 10px;
+  padding: 10px;
+}
+
+#add-event-image-div {
+  margin: 5px;
+  padding: 10px;
 }
 
 #inner-location-wrapper, #inner-calendar-wrapper {
@@ -196,6 +207,7 @@ border-color: red;
   min-height: 100%;
   justify-content: center;
   align-items: center;
+  
 }
 
 .event-row {
@@ -218,6 +230,10 @@ border-color: red;
 	flex-direction: column;
 	width:100%;
 
+}
+
+.event-column10 {
+  font-size: 18px;
 }
 
 .border1 {
@@ -269,6 +285,12 @@ border-color: red;
 #event-name-container .bar-footer #next-button-div {
   height: 50%;
   width: 100%; }
+.eventLabel {
+  font-size: 24px !important;
+}
+.eventSharing {
+  font-size: 18px !important;
+}
 
 .slider {
   height: 100%; }
@@ -311,7 +333,7 @@ border-color: red;
 }
 
 #event-name-container span, #event-name-container div , #event-name-container label {
-  font-size: 10px;
+  
 }
 
 #event-name-container #senseus-header span{
