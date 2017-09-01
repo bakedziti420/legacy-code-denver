@@ -158,7 +158,9 @@ border-color: red;
     flex-direction: column;
     width: 99%;
     height: 96%;
-    padding-left: 1%;
+    /*padding-left: 1%;*/
+    margin: 5px;
+    padding: 5px;
 }
 
 #inner-location-wrapper, #inner-calendar-wrapper {
@@ -341,3 +343,7 @@ border-color: red;
   width: 100%; }
 
 .ion-1x { font-size: 24px !important;}
+
+.eventReviewInput{
+  margin: 25px;
+}
