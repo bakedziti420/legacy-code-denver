@@ -257,10 +257,10 @@ border-color: red;
   min-height: 100%;
 }
 
-#event-type-container i {
+/*#event-type-container i {
   display:flex;
   justify-content: center;
-}
+}*/
 
 #event-name-container .bar-footer #progress-bar-container {
   height: 50%;
