@@ -71,10 +71,10 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
 
 })
 .controller('CreateEventCalendarCTRL', function ($scope, $location, Data ,$ionicSlideBoxDelegate) {
-
     localStorage.setItem("offset", "0");
 
     $scope.changeTimeView = function(increment) {
+
       console.log("Adding " + increment); 
       if (increment) {
         localStorage.setItem("offset", parseInt(localStorage.getItem('offset')) + increment);
@@ -86,6 +86,7 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
       var allDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
       for (var i = 0; i < allDays.length; i++) {
         $scope[allDays[i]] = allDays[i].slice(0,3) + " - " + moment().add(parseInt(localStorage.getItem('offset')), 'week').startOf('week').add(i, 'day').format("MM/DD");
+        
       }
     }
 
@@ -168,7 +169,7 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
           $scope.timeBlocks.splice(indexOfTime, 1);
         }
         else {
-          InsertTime();
+        InsertTime();
         }
         console.log($scope.timeBlocks);
         function InsertTime() {
@@ -458,6 +459,7 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
     }
 
   $scope.openModal = function() {
+    console.log("openModal hit")
     $scope.modal.show()
   }
 

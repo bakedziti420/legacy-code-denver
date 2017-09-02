@@ -3,10 +3,10 @@
 	flex-grow: 1;
   flex-direction: row;
 }
-
+/*
 .margin2 {
 	margin-left: 2%;
-}
+}*/
 
 .margint5 {
 	margin-top: 2.5%;
@@ -36,9 +36,9 @@ white-space: nowrap;
 	width: 30%;
 }
 </style>
-<ion-modal-view style="width: 100%; height: 100%;">
-    <ion-content>
-      <div class='flex-display-center w100 margint5'><h3 class="title" style="width:100%;text-align:center;">Login/Sign Up</h3></div>
+<ion-modal-view >
+    <ion-content no-bounce class="fixScroll">
+      <div class='flex-display-center w100 margint5'><h3 class="title" >Login/Sign Up</h3></div>
       <div class="list">
 				<div class="w100 flex-display-center" style="margin-top:2%">
 						<div id='google-login-div' class='google border1 flex-row handcursor' style='width:60%;' ng-controller='GoogleLoginController' ng-click='login()'><i class='icon ion-social-google px48 margin2'></i><div class='flex-display-center' style="width:90%;"><span style='white-space:nowrap'>Login with Google</span></div></div>
