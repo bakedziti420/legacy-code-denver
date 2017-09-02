@@ -9,7 +9,6 @@
   flex-wrap: nowrap;
   height: 100%;
   width: 100%;
-  border: 2px solid blue;
   position: relative; }
 #main-window #customizable-screen {
 display: -webkit-flex;
@@ -185,7 +184,6 @@ width: 100%; }
     flex-wrap: nowrap;
     height: 100%;
     width: 100%;
-    border: 2px solid blue;
     position: relative;
 }
 
