@@ -326,13 +326,14 @@ width: 100%; }
 
 #senseus-calendar-header {
   font-size:14px;
-  height:   4%;
+  height:   6%;
   width:100%;
   display: flex;
   flex-direction:column;
   padding: 0;
   border:0;
-  margin-top:8%;
+  margin-top:3%;
+  position:fixed;
 }
 
 #senseus-calendar-header .inner-senseus-header {
