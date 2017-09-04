@@ -443,7 +443,6 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
         scope: $scope,
         animation: 'slide-in-up',
     }).then(function(modal) {
-        console.log(modal);
         $scope.modal = modal;
     });
 
@@ -451,11 +450,11 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
         FB.login(function(response) {
             checkLoginState();
         });
-    }
+    };
 
   $scope.openModal = function() {
     $scope.modal.show();
-  }
+  };
 
   $scope.contact = {
   };
