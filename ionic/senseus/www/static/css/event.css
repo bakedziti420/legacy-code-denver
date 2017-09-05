@@ -317,6 +317,7 @@ border-color: red;
 
 .flex-row, .p0 {
   padding:0;
+  height: 50px;
 }
 
 .pl1, #event-type-container .item-content {
