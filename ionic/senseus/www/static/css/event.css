@@ -249,12 +249,13 @@ border-color: red;
     width: 20%;
     padding-left: 15%; }
 
-.event-col10 {
+.event-col10{
   display: flex;
   min-width: 16%;
   height: 100%;
   flex-direction: column;
   min-height: 100%;
+  font-size: 30px;
 }
 
 #event-type-container i {
