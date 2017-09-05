@@ -32,15 +32,25 @@
 			<a class='button event-next-button' id='add-event-details-button'>Add More Details</a>
 		</div>
 	</div>
+	<div class='event-column' ng-controller='CreateEventCTRL'>
+		<div id='next-button-div' class='row'>
+			<a class='button next-button' ng-click='toEventName()'>Event Details</a>
+			<a class='button next-button' ng-click='toEventGuests()'>Invite Friends</a>
+			<a class='button next-button' ng-click='toEventTime()'>Event Time</a>
+			<a class='button next-button' ng-click='loadFrontPage()'>Location</a>
+		</div>
+	</div>
 </ion-content>
 <ion-footer-bar id='next-button-div' class='flex-row w100' style='padding:0'>
 <div class='flex-row w100'>
+	
 	<div class='bar' ng-controller='CreateEventCTRL'>
 		<div class='event-column'>
 			<div id='next-button-div' class='row'>
-				<a class='button next-button' nav-direction='forward' ng-click='createEvent()'>Create Event</a>
-			</div>
+			 <a class='button next-button' nav-direction='forward' ng-click='createEvent()'>Create Event</a>
+
 		</div>
 	</div>
 </div>
+
 </ion-footer-bar>

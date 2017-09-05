@@ -14,7 +14,8 @@
 }
 
 .modal {  
-  position: initial;
+  position: inherit;
+  height:665px;
   margin:0 auto;
   margin-top:2%;
   padding-bottom: 30px;
@@ -109,7 +110,3 @@
   margin-left: 0;
 }
 
-
-.scroll-content{
-  position:inherit;
-}

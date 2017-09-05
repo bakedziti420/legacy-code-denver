@@ -359,6 +359,22 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
         });
     }
 
+    $scope.toEventName = function() {
+        $state.go('eventName');
+    }
+
+    $scope.toEventLocation = function() {
+        $state.go('eventLocation');
+    }
+
+    $scope.toEventGuests = function() {
+        $state.go('eventInviteFriends');
+    }
+
+     $scope.toEventTime = function() {
+        $state.go('eventCalendar');
+    }
+
 })
 .controller('ChatCTRL', function ($scope, $location, Data, $ionicSlideBoxDelegate, $ionicHistory, $state) {
     $scope.chatMessagesRight = function() {
