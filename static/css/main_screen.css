@@ -68,7 +68,7 @@ width: 100%; }
   visibility: visible;
   opacity: 1;
   transition-delay: 0s; }
-#main-window #customizable-screen #first-time-container #first-time-find-event, #main-window #customizable-screen #first-time-container #first-time-create-event {
+ #main-window #customizable-screen #first-time-container #first-time-create-event {
   margin-top: 5%;
   align-items: center;
   justify-content: center; 
