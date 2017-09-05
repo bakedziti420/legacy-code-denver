@@ -181,7 +181,8 @@ border-color: red;
 
 .event-col90 {
 	display: flex;
-	width: 85%;
+  /*75% width to ensure all label text visible*/
+	width: 75%;
   flex-shrink: 0;
   flex-grow: 10;
   flex-direction: column;
@@ -318,8 +319,10 @@ border-color: red;
   font-size: 14px;
 }
 
+/*Set height for all rows*/
 .flex-row, .p0 {
   padding:0;
+  height: 60px;
 }
 
 .pl1, #event-type-container .item-content {
