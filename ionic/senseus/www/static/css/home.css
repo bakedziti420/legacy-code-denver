@@ -13,6 +13,12 @@ div {
     border: 1px solid black;
 }
 
+#google-autocomplete {
+    position: relative;
+    border: solid 1px black;
+    top: 300px;
+}
+
 .signin-container {
     flex: 0 0 25%;
 }
