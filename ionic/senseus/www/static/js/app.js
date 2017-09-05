@@ -12,6 +12,10 @@ var app = angular.module('senseus', ['ionic', 'ngCordova', 'senseus.controllers'
     url: '/firstTime',
     templateUrl: 'templates/firstTime.html'
   })
+  .state('loginModal', {
+    url: '/loginModal',
+    templateUrl: 'templates/loginModal.html'
+  })
   .state('eventName', {
     url: '/eventName',
     templateUrl: 'templates/eventWorkflow.html'
