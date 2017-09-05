@@ -319,10 +319,9 @@ border-color: red;
   font-size: 14px;
 }
 
-/*Set height for all rows*/
+
 .flex-row, .p0 {
   padding:0;
-  height: 60px;
 }
 
 .pl1, #event-type-container .item-content {
