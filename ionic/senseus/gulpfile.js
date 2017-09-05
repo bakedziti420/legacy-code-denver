@@ -1,4 +1,4 @@
-var gulp = require('gulp');
+senvar gulp = require('gulp');
 var gutil = require('gulp-util');
 var bower = require('bower');
 var concat = require('gulp-concat');
